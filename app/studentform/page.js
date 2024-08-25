@@ -81,7 +81,7 @@ export default function StudentForm() {
 
   return (
     <div className={styles.formContainer}>
-      <h1>Student Verification Form</h1>
+      <h1>Enter Students Details</h1>
       <form onSubmit={handleSubmit} className={styles.form}>
         {step === 1 && (
           <>
